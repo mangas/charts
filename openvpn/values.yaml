@@ -13,8 +13,8 @@ updateStrategy: {}
 imagePullSecretName:
 
 image:
-  repository: jfelten/openvpn-docker
-  tag: 1.1.0
+  repository: mangas/openvpn-docker
+  tag: latest
   pullPolicy: IfNotPresent
 service:
   type: LoadBalancer
